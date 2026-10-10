@@ -117,6 +117,8 @@ namespace Map
         {
             public DirectionType direction;
             public bool isThrough;
+
+            public MovePlan(bool isThrough) => this.isThrough = isThrough;
             // public bool isTry;
         }
 
